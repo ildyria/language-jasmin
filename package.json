@@ -1,15 +1,15 @@
 {
-  "version": "0.58.1",
+  "version": "0.1.0",
   "name": "language-Jasmin",
   "description": "Atom language support for Jasmin",
   "homepage": "https://atom.github.io/language-jasmin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-jasmin.git"
+    "url": "https://github.com/ildyria/language-jasmin.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-c/issues"
+    "url": "https://github.com/ildyria/language-c/issues"
   },
   "engines": {
     "atom": "*",

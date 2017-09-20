@@ -1,4 +1,4 @@
-language: objective-c
+language: jasmin
 
 notifications:
   email:

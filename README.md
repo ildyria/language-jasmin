@@ -1,4 +1,4 @@
-# Jasmin language support in Atom
+# Jaz (Jasmin) language support in Atom
 
 Adds syntax highlighting and snippets to Jasmin files in Atom.
 
@@ -12,4 +12,4 @@ pull request to add snippets, make grammar tweaks, etc.
 Because this language is not available through the package manager it needs to be installed manually:
 
     cd ~/.atom/packages/
-    git clone git git@github.com:ildyria/language-jasmin.git
+    git clone git git@github.com:ildyria/language-jaz.git

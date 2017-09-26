@@ -1,4 +1,4 @@
-'.source.mil':
+'.source.jaz':
   'editor':
     'commentStart': '// '
     'increaseIndentPattern': '(?x)
@@ -12,6 +12,6 @@
       |^ \\s* (\\s* /[*] .* [*]/ \\s*)* \\)
       |^ \\s* (export|fn): \\s* $
       '
-'.source.mil':
+'.source.jaz':
   'editor':
     'foldEndPattern': '(?<!\\*)\\*\\*/|^\\s*\\}'

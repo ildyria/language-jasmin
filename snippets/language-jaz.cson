@@ -1,4 +1,4 @@
-'.source.mil':
+'.source.jaz':
   'For Loop':
     'prefix': 'for'
     'body': 'for (size_t ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}${3:++}) {\n\t${4:/* code */}\n}'

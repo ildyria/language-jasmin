@@ -1,9 +1,10 @@
 'scopeName': 'source.jaz'
 'fileTypes': [
+  'jaz'
   'mil'
 ]
-'firstLineMatch': '(?i)-\\*-[^*]*(Mode:\\s*)?mil(\\s*;.*?)?\\s*-\\*-'
-'name': 'Jasmin'
+'firstLineMatch': '(?i)-\\*-[^*]*(Mode:\\s*)?jaz(\\s*;.*?)?\\s*-\\*-'
+'name': 'Jaz (Jasmin)'
 'patterns': [
   {
     'include': '#comments'
@@ -186,7 +187,7 @@
         'include': '#access'
       }
       {
-        'include': '#mil_function_call'
+        'include': '#jaz_function_call'
       }
       {
         'captures':
@@ -233,7 +234,7 @@
         'include': '$base'
       }
     ]
-  'mil_function_call':
+  'jaz_function_call':
     # FIRST CAPTURE meta.function-call.c scope (provides an injectable scope, balanced parentheses and prevents unnecessary scope nesting)
     'begin': '''(?x)
       (?!(?:while|for|do|if|else|switch|catch|enumerate|return|typeid|alignof|alignas|sizeof|[cr]?iterate)\\s*\\()
@@ -409,7 +410,7 @@
             'include': '#access'
           }
           {
-            'include': '#mil_function_call'
+            'include': '#jaz_function_call'
           }
           {
             'include': '$base'
